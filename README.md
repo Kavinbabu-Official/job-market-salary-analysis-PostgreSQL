@@ -25,4 +25,4 @@ This project analyzes job market data to extract salary insights, experience req
 - PostgreSQL
 - SQL (Window Functions, Aggregations)
 - GitHub
-- 
+
