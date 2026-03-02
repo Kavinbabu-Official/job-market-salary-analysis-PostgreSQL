@@ -1,7 +1,7 @@
 -- Total Records:
 
-SELECT 
-	COUNT(*)
+SELECT 'Total Jobs' AS metric,
+	COUNT(*) AS total_job
 FROM
 	insight;
 
@@ -20,4 +20,5 @@ WHERE
 	i.salary_min_inr IS NULL OR
 	i.salary_max_inr IS NULL OR
 	i.employment_type IS NULL OR
+
 	i.remote_option IS NULL;
