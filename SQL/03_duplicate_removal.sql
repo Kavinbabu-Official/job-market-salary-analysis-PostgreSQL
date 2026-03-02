@@ -1,4 +1,3 @@
-
 DELETE FROM insight i
 WHERE i.job_id IN (
 SELECT i.job_id FROM(
@@ -18,3 +17,4 @@ FROM insight i ) t
 WHERE rn > 1
 
 );
+
